@@ -1,0 +1,44 @@
+﻿section {
+    display: flex;
+    margin: 2rem 6rem;
+    background: #292929;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-logo img {
+    height: 20rem;
+}
+
+.slogan {
+    color: #fff;
+    padding: 6rem 3rem;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.slogan a {
+    color: #fff;
+    background: #FE2431;
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
+    transition: all 0.5s;
+}
+
+.slogan a:hover {
+    background: #c71c26;
+}

@@ -1,0 +1,19 @@
+﻿header {
+    background: #292929;
+    width: 100%;
+    height: 4rem;
+    padding: 0 2rem;
+}
+
+header .logo, header a {
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .logo img {
+    height: 70%;
+}

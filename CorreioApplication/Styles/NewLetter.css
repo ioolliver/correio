@@ -1,0 +1,70 @@
+﻿.content-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.sending-to {
+    color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: #292929;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sending-to div {
+    display: flex;
+    gap: 1rem;
+}
+
+.sending-to div select {
+    border: none;
+    color: #fff;
+    background: #595959;
+    padding: 0.5rem 1rem;
+    min-width: 8rem;
+}
+
+.send-correio {
+    margin-top: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.send-correio input {
+    border: none;
+    color: #fff;
+    background: #1A7834;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2.5rem;
+}
+
+.send-correio input:hover {
+    cursor: pointer;
+}
+
+.heart-shape {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    aspect-ratio: 1;
+    border-image: radial-gradient(#be0202 69%, #0000 70%) 84.5%/50%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    color: #fff;
+    height: 30rem;
+}
+
+.heart-shape textarea {
+    border: 0;
+    color: #fff;
+    background: #be0202;
+    width: 100%;
+    height: 60%;
+    resize: none;
+}
